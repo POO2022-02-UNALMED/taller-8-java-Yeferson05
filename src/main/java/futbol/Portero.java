@@ -9,19 +9,6 @@ public class Portero extends Futbolista {
         this.golesRecibidos = golesRecibidos;
         this.dorsal = dorsal;
     }
-
-    public short getGolesRecibidos() {
-		return golesRecibidos;
-	}
-	public void setGolesRecibidos(short golesRecibidos) {
-		this.golesRecibidos = golesRecibidos;
-	}
-	public byte getDorsal() {
-		return dorsal;
-	}
-	public void setDorsal(byte dorsal) {
-		this.dorsal = dorsal;
-	}
 	
 	@Override
 	public String toString() {

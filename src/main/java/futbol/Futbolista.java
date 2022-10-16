@@ -5,17 +5,18 @@ public abstract class Futbolista implements Comparable{
 	private int edad;
 	private final String posicion;
 	
+    public Futbolista() {
+		nombre = "Maradona";
+        posicion = "delantero";
+        edad = 30;
+	}
+    
 	public Futbolista(String nombre, int edad, String posicion) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.posicion = posicion;
 	}
 	
-	public Futbolista() {
-		nombre = "Maradona";
-        posicion = "delantero";
-        edad = 30;
-	}
 	
 	@Override
 	public String toString() {
