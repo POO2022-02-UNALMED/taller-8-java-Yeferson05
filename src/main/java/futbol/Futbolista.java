@@ -10,7 +10,7 @@ public abstract class Futbolista implements Comparable{
         posicion = "delantero";
         edad = 30;
 	}
-    
+
 	public Futbolista(String nombre, int edad, String posicion) {
 		this.nombre = nombre;
 		this.edad = edad;
@@ -20,7 +20,7 @@ public abstract class Futbolista implements Comparable{
 	
 	@Override
 	public String toString() {
-		return "El futbolista " + nombre + " tiene " + edad + ", juega de " + posicion ;
+		return "El futbolista " + nombre + " tiene " + edad + ", y juega de " + posicion ;
 	}
 	
 	public boolean equals(Futbolista f){
