@@ -12,7 +12,9 @@ public abstract class Futbolista implements Comparable{
 	}
 	
 	public Futbolista() {
-		this("Maradona",30,"delantero");
+		nombre = "Maradona";
+        posicion = "delantero";
+        edad = 30;
 	}
 	
 	@Override
